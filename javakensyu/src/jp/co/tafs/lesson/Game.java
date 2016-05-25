@@ -11,7 +11,7 @@ public class Game {
 
 	void gamePlay() {
 		System.out.println("ゲームをしています。");
-		softIn("MARIO");
+		softIn("NEWMARIO");
 		softOut();
 	}
 
@@ -28,7 +28,7 @@ public class Game {
 	void powerOn() {
 		if (gamepower == false) {
 			gamepower = true;
-			System.out.println("電源がONになります。");
+			System.out.println("電源ONになります。");
 		}
 		else {
 			System.out.println("電源ON状態です。");
